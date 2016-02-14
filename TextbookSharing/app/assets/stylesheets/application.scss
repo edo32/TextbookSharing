@@ -22,7 +22,7 @@
   text-align: center;
   h1 {
     display: inline;
-    font-size: 28px;
+    font-size: 32px;
     a {
       color: #000000;
       text-decoration: none;
@@ -56,11 +56,17 @@
  align-content: center;
  text-align: center;
  font-size: 18px;
- .button {
-   color: #0e97db;
- }
 }
 
+.button {
+  color: #0e97db;
+}
+
+.bsa {
+  float: right;
+  margin-right: 4em;
+  margin-top: 1em;
+}
 
 #page_wrapper {
   padding: 3em;
