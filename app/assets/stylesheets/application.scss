@@ -1,0 +1,162 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+@import 'normalize';
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+#header_title {
+  text-align: center;
+  h1 {
+    display: inline;
+    font-size: 32px;
+    a {
+      color: #000000;
+      text-decoration: none;
+    }
+  }
+
+ .new_entry {
+   float: right;
+   padding: .5em;
+   margin-right: 2em;
+   font-size: 14px;
+   color: #d6dce0;
+   #new {
+     float: left;
+   }
+   p {
+     font-size: 14px;
+   }
+   a {
+     color: #0e97db;
+   }
+ }
+}
+
+.content {
+ padding: 1em 2em;
+}
+
+// Welcome Page
+.welcome {
+ align-content: center;
+ text-align: center;
+ font-size: 18px;
+}
+
+.button {
+  color: #0e97db;
+}
+
+.bsa {
+  float: right;
+  margin-right: 4em;
+  margin-top: 1em;
+}
+
+#page_wrapper {
+  padding: 3em;
+
+  #content {
+    h1 {
+      font-weight: 500;
+    }
+
+    p {
+      font-size: 1.1em;
+      line-height: 1.75;
+    }
+
+    a {
+      color: #cccccc;
+      font-weight: 700;
+      text-decoration: none;
+    }
+  }
+}
+
+.button {
+  padding: -.5em 0;
+  a {
+    text-decoration: none;
+  }
+}
+
+input[type="text"], input[type="email"], input[type="password"], textarea {
+  width: 90%;
+  border: 1px solid #d6dce0;
+  border-radius: .35em;
+  margin-top: 10px;
+  padding: .5em 1em;
+  line-height: 1.75;
+}
+
+input[type="text"] {
+  height: 35px;
+}
+
+textarea {
+  min-height: 180px;
+}
+
+input[type="submit"] {
+  outline: none;
+  border: 1px solid #d6dce0;
+  padding: .5em 1.5em;
+  font-size: 1.1em;
+  border-radius: 1.5em;
+  margin-left: .5em;
+  &:hover {
+    border: 1px solid #cccccc;
+    color: #ffffff;
+  }
+}
+
+// Sold
+.sold {
+  float: right;
+  padding: 1em;
+}
+
+// Textbook
+.textbook_wrapper {
+  display: inline-block;
+  width: 100%;
+  padding: 3em;
+  border-bottom: 1px solid #d6dce0;
+
+  h2.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  h4.author {
+    padding-left: 5px;
+    font-size: 18px
+  }
+
+  p {
+    display: inline;
+  }
+}
+
+.fci {
+  align-content: center;
+  text-align: center;
+  float: none;
+}
