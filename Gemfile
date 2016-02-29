@@ -21,7 +21,7 @@ end
 
 group :production do
   gem 'rails_12factor' # for heroku
-  gem 'bonsai-elasticsearch-rails' # for Bonsai plugin on heroku
+  # gem 'bonsai-elasticsearch-rails' # for Bonsai plugin on heroku - paid service
   gem 'pg' # using postgresql in production
 end
 
